@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact | Amal</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#330023;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#330023;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+margin-left:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#00e6ff;
+}
+
+h1{
+text-align:center;
+color:#ff0099;
+margin-top:30px;
+}
+
+p{
+text-align:center;
+color:#ddd;
+}
+
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:linear-gradient(145deg, #1a0012, #2a001f);
+width:260px;
+padding:20px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 0 15px rgba(255,0,153,0.5);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 25px #00e6ff;
+}
+
+.icon{
+font-size:30px;
+margin-bottom:10px;
+}
+
+.card a{
+color:#00e6ff;
+text-decoration:none;
+font-weight:bold;
+}
+
+.card a:hover{
+color:white;
+}
+
+.social{
+text-align:center;
+margin-top:20px;
+}
+
+.social a{
+display:inline-block;
+margin:10px;
+padding:10px 15px;
+background:#ff0099;
+color:black;
+border-radius:20px;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+.social a:hover{
+background:white;
+color:#330023;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<h2>Contact Me</h2>
+<div>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="gallery.html">Gallery</a>
+<a href="interest.html">Interest</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+
+<h1>Get In Touch 💌</h1>
+<p>Feel free to contact me anytime</p>
+
+<div class="container">
+
+<!-- EMAIL -->
+<div class="card">
+<div class="icon">📧</div>
+<h3>Email</h3>
+<a href="mailto:amal.saffa5@gmail.com">
+amal.saffa5@gmail.com
+</a>
+</div>
+
+<!-- PHONE -->
+<div class="card">
+<div class="icon">📱</div>
+<h3>Phone</h3>
+<a href="tel:+60199770495">
++60 19-977 0495
+</a>
+</div>
+
+<!-- LOCATION -->
+<div class="card">
+<div class="icon">📍</div>
+<h3>Location</h3>
+<a href="https://www.google.com/maps/place/Teluk+Intan,+Perak" target="_blank">
+Teluk Intan, Perak
+</a>
+</div>
+
+</div>
+
+<!-- SOCIAL MEDIA -->
+<div class="social">
+
+<h2 style="color:#00e6ff;">My Social Media</h2>
+
+<a href="https://instagram.com/aamalrz" target="_blank">Instagram</a>
+<a href="https://tiktok.com/@nrsffa.rz" target="_blank">TikTok</a>
+
+</div>
+
+<!-- IMAGE MAP SECTION -->
+<h2 style="text-align:center; margin-top:50px; color:#ff0099;">
+Explore My Website
+</h2>
+
+<p style="text-align:center; color:#ddd;">
+Click the image to navigate pages
+</p>
+
+<img src="imagemap.png" usemap="#websiteMap"
+width="400"
+style="display:block; margin:auto; border-radius:12px; box-shadow:0 0 20px rgba(255,0,153,0.5);">
+
+<map name="websiteMap">
+
+<area shape="rect" coords="0,0,300,300" href="index.html" alt="Home">
+<area shape="rect" coords="300,0,600,300" href="about.html" alt="About">
+<area shape="rect" coords="0,300,300,600" href="interest.html" alt="Interest">
+<area shape="rect" coords="300,300,600,600" href="contact.html" alt="Contact">
+
+</map>
+
+</div>
+
+<footer style="text-align:center;padding:20px;margin-top:40px;background:#1a0012;">
+<p>
+© 2026 Nur Amal Saffa Binti Rozi | Created for IML470 Assignment
+</p>
+</footer>
+
+</body>
+</html>
+

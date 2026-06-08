@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery | SUKSIS Amal</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#330023;
+color:white;
+}
+
+/* NAV */
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#330023;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+margin-left:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#00e6ff;
+}
+
+/* TITLE */
+h1{
+text-align:center;
+color:#ff0099;
+margin-top:30px;
+}
+
+p.subtitle{
+text-align:center;
+color:#ddd;
+}
+
+/* GALLERY */
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+padding:40px;
+}
+
+/* CARD */
+.card{
+background:linear-gradient(145deg, #1a0012, #2a001f);
+width:300px;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 0 15px rgba(255,0,153,0.4);
+transition:0.3s;
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 25px #00e6ff;
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-bottom:2px solid #ff0099;
+}
+
+/* CAPTION */
+.card h3{
+color:#ff0099;
+margin:10px 0;
+}
+
+.card p{
+padding:10px;
+font-size:14px;
+color:#ddd;
+line-height:1.5;
+}
+
+
+/* DESCRIPTION BOX */
+.description{
+max-width:800px;
+margin:40px auto;
+background:#1a0012;
+padding:20px;
+border-radius:15px;
+box-shadow:0 0 15px rgba(255,0,153,0.3);
+line-height:1.8;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+<h2> SUKSIS Gallery UiTM Kedah</h2>
+<div>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="gallery.html">Gallery</a>
+<a href="interest.html">Interest</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+
+<!-- TITLE -->
+<h1>Activities Gallery 🚓</h1>
+
+<p class="subtitle">
+My experience and memories in SUKSIS activities, including marching practice and bonding with friends.
+</p>
+
+<h2 style="text-align:center;color:#ff0099;">
+SUKSIS Interactive Image Map
+</h2>
+
+<map name="suksismap">
+
+<area shape="rect"
+coords="0,0,300,400"
+href="kawad.html"
+alt="Kawad Training"
+title="Kawad Training">
+
+<area shape="rect"
+coords="300,0,600,400"
+href="friends.html"
+alt="Friends in SUKSIS"
+title="Friends in SUKSIS">
+
+<area shape="rect"
+coords="600,0,900,400"
+href="teamwork.html"
+alt="Teamwork and Unity"
+title="Teamwork and Unity">
+
+</map>
+
+<!-- GALLERY -->
+<div class="container">
+
+<div class="card">
+<a href="kawad.html">
+<img src="suksis1.jpg" alt="SUKSIS Kawad">
+</a>
+<h3>Kawad Training</h3>
+<p>Click the image to learn more about this activity.</p>
+</div>
+
+<div class="card">
+<a href="friends.html">
+<img src="suksis3.jpg" alt="SUKSIS Friends">
+</a>
+<h3>Friends in SUKSIS</h3>
+<p>Click the image to learn more about this activity.</p>
+</div>
+
+<div class="card">
+<a href="teamwork.html">
+<img src="suksis2.jpg" alt="SUKSIS Teamwork">
+</a>
+<h3>Teamwork & Unity</h3>
+<p>Click the image to learn more about this activity.</p>
+
+</div>
+
+<!-- NEGARAKU SECTION -->
+
+<h2 style="
+text-align:center;
+color:#ff0099;
+margin-top:40px;
+margin-bottom:20px;">
+
+</h2>
+
+<div style="display:flex; justify-content:center;">
+
+<div class="card">
+
+<img src="negaraku.jpg" alt="Negaraku">
+
+<p>
+Negaraku is Malaysia's national anthem and is often sung during SUKSIS parades, official ceremonies, and formal events. The song is performed with pride and respect to express patriotism, unity, discipline, and loyalty to the nation.
+</p>
+
+<audio controls style="width:90%; margin-bottom:15px;">
+<source src="negaraku.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+<!-- DESCRIPTION BELOW -->
+<div class="description">
+
+<h2 style="color:#00e6ff; text-align:center;">About My SUKSIS Experience</h2>
+
+<p>
+Joining SUKSIS has given me valuable experience in leadership, discipline, and teamwork.
+Through marching training and group activities, I learned how to communicate effectively,
+follow instructions, and work together as a team.
+</p>
+
+<p>
+This experience also helped me build confidence, improve physical discipline, and strengthen
+friendship with my fellow members. It is one of the most meaningful parts of my university life.
+</p>
+
+</div>
+
+</div>
+
+<footer style="text-align:center;padding:20px;margin-top:40px;background:#1a0012;">
+<p>
+© 2026 Nur Amal Saffa Binti Rozi | Created for IML470 Assignment
+</p>
+</footer>
+
+</body>
+</html>
+

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interest | K-Drama</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#330023;
+color:white;
+}
+
+/* NAV */
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#330023;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+margin-left:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#00e6ff;
+}
+
+/* TITLE */
+h1{
+text-align:center;
+color:#ff0099;
+margin-top:20px;
+}
+
+p.intro{
+text-align:center;
+max-width:700px;
+margin:auto;
+padding:10px;
+color:#ddd;
+}
+
+/* CONTAINER */
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+padding:40px;
+}
+
+/* CARD */
+.card{
+background:linear-gradient(145deg, #1a0012, #2a001f);
+width:260px;
+border-radius:15px;
+overflow:hidden;
+text-align:center;
+box-shadow:0 0 15px rgba(255,0,153,0.5);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px) scale(1.03);
+box-shadow:0 0 25px #00e6ff;
+}
+
+.card img{
+width:100%;
+height:160px;
+object-fit:cover;
+border-bottom:2px solid #ff0099;
+}
+
+.card h3{
+color:#ff0099;
+margin-top:10px;
+}
+
+.card p{
+padding:8px;
+font-size:14px;
+color:#ddd;
+}
+
+/* STARS */
+.stars{
+color:gold;
+font-size:16px;
+margin-bottom:10px;
+}
+
+/* VIDEO */
+.video{
+display:flex;
+justify-content:center;
+margin:40px 0;
+}
+
+video{
+border-radius:10px;
+box-shadow:0 0 20px rgba(0,0,0,0.6);
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+<h2>K-Drama Interest</h2>
+<div>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="gallery.html">Gallery</a>
+<a href="interest.html">Interest</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+
+<!-- TITLE -->
+<h1>My Favourite K-Dramas</h1>
+
+<p class="intro">
+I enjoy watching Korean dramas because they have emotional stories, strong characters,
+and beautiful cinematography that help me relax after studying.
+</p>
+
+<!-- CARDS -->
+<div class="container">
+
+<div class="card">
+<img src="dots.jpg">
+<h3>Descendants of the Sun</h3>
+<div class="stars">★★★★★</div>
+<p>Military romance drama.</p>
+<a class="link" href="https://en.wikipedia.org/wiki/Descendants_of_the_Sun" target="_blank">Descendents of the Sun</a>
+</div>
+
+<div class="card">
+<img src="k2.jpg">
+<h3>The K2</h3>
+<div class="stars">★★★★☆</div>
+<p>Action thriller drama.</p>
+<a class="link" href="https://en.wikipedia.org/wiki/The_K2" target="_blank">K2</a>
+</div>
+
+<div class="card">
+<img src="cloy.jpg">
+<h3>Crash Landing on You</h3>
+<div class="stars">★★★★★</div>
+<p>Romance between North & South Korea.</p>
+<a class="link" href="https://en.wikipedia.org/wiki/Crash_Landing_on_You" target="_blank">Crash Landing on You</a>
+</div>
+
+<div class="card">
+<img src="blue_sea.jpg">
+<h3>Legend of the Blue Sea</h3>
+<div class="stars">★★★★☆</div>
+<p>Fantasy romance drama.</p>
+<a class="link" href="https://en.wikipedia.org/wiki/Legend_of_the_Blue_Sea" target="_blank">Legend of the Blue Sea</a>
+</div>
+
+</div>
+
+<!-- TRAILER -->
+<h2 style="text-align:center;color:#00e6ff;">Watch Trailer</h2>
+
+<div class="video">
+
+<video width="560" height="315" controls>
+    <source src="cloy.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+</div>
+
+<footer style="text-align:center;padding:20px;margin-top:40px;background:#1a0012;">
+<p>
+© 2026 Nur Amal Saffa Binti Rozi | Created for IML470 Assignment
+</p>
+</footer>
+</body>
+</html>
